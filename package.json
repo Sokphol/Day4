@@ -1,0 +1,33 @@
+{
+  "name": "next-js3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
+    "@playwright/test": "^1.46.0",
+    "@storybook/addon-coverage": "^1.0.4",
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/addon-onboarding": "^8.2.9",
+    "@storybook/blocks": "^8.2.9",
+    "@storybook/nextjs": "^8.2.9",
+    "@storybook/react": "^8.2.9",
+    "@storybook/test": "^8.2.9",
+    "@storybook/test-runner": "^0.19.1",
+    "@types/node": "^22.3.0",
+    "storybook": "^8.2.9"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "yup": "^1.4.0"
+  }
+}
